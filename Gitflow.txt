@@ -1,0 +1,34 @@
+git init
+
+git remote add origin [URL_DO_SEU_REPOSITORIO]
+git remote -v
+
+git status
+
+git add [nome_do_arquivo] ou git add .
+
+git commit -m "Sua mensagem de commit"
+
+git log
+
+git branch
+
+git branch [nome_da_branch]
+
+git checkout [nome_da_branch]
+
+git checkout -b [nome_da_nova_branch]
+
+git branch -M [novo_nome_da_branch]
+
+git branch -d [nome_da_branch]
+
+git branch -D [nome_da_branch]
+
+git push origin [nome_da_branch]
+
+git push -u origin [nome_da_branch]
+
+git pull origin [nome_da_branch]
+
+git fetch origin
