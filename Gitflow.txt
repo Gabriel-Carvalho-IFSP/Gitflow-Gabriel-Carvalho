@@ -1,34 +1,29 @@
 git init
-
-git remote add origin [URL_DO_SEU_REPOSITORIO]
+git remote add origin https://github.com/Gabriel-Carvalho-IFSP/Gitflow-Gabriel-Carvalho.git
 git remote -v
-
 git status
-
-git add [nome_do_arquivo] ou git add .
-
-git commit -m "Sua mensagem de commit"
-
+git add [Gitflow.txt] ou git add .
+git commit -m "Primeiro commit do meu projeto"
+git commit -m "Processos de gitflow anotados e testados"
+git commit -m "Novas anotações no TXT e atualização de nome""
 git log
-
 git branch
-
+git branch -M main
 git branch [nome_da_branch]
-
 git checkout [nome_da_branch]
-
 git checkout -b [nome_da_nova_branch]
-
 git branch -M [novo_nome_da_branch]
-
 git branch -d [nome_da_branch]
-
 git branch -D [nome_da_branch]
-
 git push origin [nome_da_branch]
-
 git push -u origin [nome_da_branch]
-
 git pull origin [nome_da_branch]
-
+git branch nome-da-sua-nova-branch
+git branch -M novo-nome-da-branch
 git fetch origin
+cd "E:\Program Files\Git repositório"
+
+----
+git config --global user.name
+git config --global user.email
+git config --global user.name "Gabriel Carvalho de Oliveira"
